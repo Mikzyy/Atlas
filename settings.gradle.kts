@@ -1,4 +1,4 @@
 rootProject.name = "Atlas"
 
-include("core")
+include("common")
 include("paper")

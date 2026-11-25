@@ -9,11 +9,11 @@ version = "1.0.0+26.3"
 sourceSets {
     main {
         java.srcDirs(
-            project(":core").file("src/main/java"),
+            project(":common").file("src/main/java"),
             file("src/main/java")
         )
         resources.srcDirs(
-            project(":core").file("src/main/resources"),
+            project(":common").file("src/main/resources"),
             file("src/main/resources")
         )
     }
