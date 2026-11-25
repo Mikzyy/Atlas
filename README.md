@@ -1,4 +1,4 @@
-# Atlas
+[![Atlas banner](https://raw.githubusercontent.com/Mikzyy/Atlas/master/common/src/main/resources/atlas_banner.png)](https://github.com/Mikzyy/Atlas)
 
 <img alt="paper" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/paper_vector.svg">
 
