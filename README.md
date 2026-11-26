@@ -1,4 +1,4 @@
-[![Atlas banner](https://raw.githubusercontent.com/Mikzyy/Atlas/master/common/src/main/resources/atlas_banner.png)](https://github.com/Mikzyy/Atlas)
+[![Atlas banner](https://raw.githubusercontent.com/Mikzyy/Atlas/master/.github/assets/atlas_banner.png)](https://github.com/Mikzyy/Atlas)
 
 Atlas is a lightweight Java utility library for Minecraft server plugins.
 
