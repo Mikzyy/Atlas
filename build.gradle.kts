@@ -38,12 +38,8 @@ configure(subprojects) {
                     )
                     if (url.scheme != "file") {
                         credentials {
-                            username = providers.gradleProperty("mikzyyMavenUser")
-                                .orElse(providers.environmentVariable("MIKZYY_MAVEN_USER"))
-                                .orNull
-                            password = providers.gradleProperty("mikzyyMavenToken")
-                                .orElse(providers.environmentVariable("MIKZYY_MAVEN_TOKEN"))
-                                .orNull
+                            username = providers.environmentVariable("MIKZYY_MAVEN_USER").orNull
+                            password = providers.environmentVariable("MIKZYY_MAVEN_TOKEN").orNull
                         }
                         authentication {
                             create<BasicAuthentication>("basic")

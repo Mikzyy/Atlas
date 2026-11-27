@@ -4,26 +4,14 @@ plugins {
     id("io.freefair.lombok")
 }
 
-version = "1.0.0+26.3"
-
-sourceSets {
-    main {
-        java.srcDirs(
-            project(":common").file("src/main/java"),
-            file("src/main/java")
-        )
-        resources.srcDirs(
-            project(":common").file("src/main/resources"),
-            file("src/main/resources")
-        )
-    }
-}
+version = "1.0.0"
 
 repositories {
     maven("https://repo.papermc.io/repository/maven-public/")
 }
 
 dependencies {
+    api(project(":common"))
     compileOnly("io.papermc.paper:paper-api:26.3.build.+")
 }
 
