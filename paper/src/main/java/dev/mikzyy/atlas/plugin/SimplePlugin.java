@@ -28,15 +28,15 @@ public abstract class SimplePlugin extends JavaPlugin {
         onPluginStop();
     }
 
+    protected void onPluginLoad() {
+
+    }
+
     protected void onPluginStart() {
 
     }
 
     protected void onPluginStop() {
-
-    }
-
-    protected void onPluginLoad() {
 
     }
 }
